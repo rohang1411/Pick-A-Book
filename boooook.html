@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <title>BOOKS</title>
+    
+        <style>
+            
+            
+            
+        div.header
+            {
+                background: url(photos/background.png) ;
+                text-align: center;
+                padding: 20px;
+                height: auto;
+                text-decoration-color: white;
+            }
+            .topbar
+            {
+                background-color: darkolivegreen;
+                text-align: center;
+                padding: 20px;
+                height: auto;
+            }
+            .main
+            {
+                padding-left: 50px;
+                padding-top: 10px;
+            }
+            
+            .wrapper
+            { 
+                display: grid;
+/*                grid-template-columns: repeat(2,100%);*/
+            }
+
+            section
+            {
+                position: relative;
+                width: 100%;
+/*                height:320px;*/
+                background-color: black;
+                display: grid;
+                grid-template-columns: repeat(8,auto);
+                margin: 20px 0;
+            }
+            .item
+            {
+                height: 280px;
+                width: 200px;
+                padding: 0 8px;
+                transition: 300ms all;
+            }
+            .item:hover
+                {
+                    margin: 0 20px;
+                    height: 320px;
+                    width: 240px;
+                    transform: scale(1.2);
+                }
+            }
+            
+            .mapouter{position:relative;text-align:right;height:386px;width:1500px;}.gmap_canvas {overflow:hidden;background:none!important;height:386px;width:1500px;}
+/*
+            a
+            {
+                color: white;
+                position: absolute;
+                font-size: 6;
+                text-align: center;
+            }
+*/   
+            
+/*            ssssssssssssssssssssssssssssssssssss*/
+            .button {
+                  background-color: black;
+                  border: none;
+                  color: white;
+                  padding: 15px 32px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 16px;
+                  margin: 4px 2px;
+                  cursor: pointer;
+}
+/*            ssssssssssssssssssssssssssssssssssssssss*/
+        </style>   
+    </head>
+    <body bgcolor = "black">
+        
+        <div class = "header">
+            <h1 style= "color: white">Pick A Book</h1>
+        </div>
+        <div class = "topbar">
+            <a href="#" class="button">Shop</a>
+            <a href="#" class="button">Browse</a>
+<!--            sssssssssssssssssssss-->
+           
+            <a href="C:\Users\Hp\Documents\SEM III website\login.html" class="button">Sign in</a>
+            
+            <a href="file:///E:/Docs/HTML/signup.html" class="button">Sign Up</a>
+<!--            ssssssssssssssssss-->
+        </div>
+        <div class = "main">
+            <h1>BOOKS</h1>
+        </div>
+        
+        
+        
+        <div class = "wrapper">
+<!--             <h1>hi there</h1>   -->
+            <section id ="section1">
+<!--                <a href = "#section2">></a>    -->
+                 <div class= "item">
+                    <a href = "https://www.amazon.in/Introduction-Algorithms-Eastern-Economy-Thomas/dp/8120340078/ref=sr_1_1?keywords=cormen&qid=1568634523&s=gateway&sr=8-1"><img src ="data:image/webp;base64,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" hieght = "280px" width = "200px"></a>
+                </div>
+                
+                 <div class= "item">
+                    <a href = "https://www.amazon.in/Marvels-Doctor-Strange-Junior-Novel/dp/0316271578/ref=sr_1_9?keywords=marvel+comics&qid=1568634608&s=gateway&sr=8-9"><img src ="https://images-na.ssl-images-amazon.com/images/I/51NTmEHdvNL._SX343_BO1,204,203,200_.jpg" hieght = "280px" width = "200px"></a>
+                </div>
+                
+                 <div class= "item">
+                    <a href = "https://www.amazon.in/Programming-Language-Kernighan-Dennis-Ritchie/dp/9332549443?ref_=ast_sto_dp"><img src ="https://images-na.ssl-images-amazon.com/images/I/5109Hsj5UZL._SX352_BO1,204,203,200_.jpg" hieght = "280px" width = "200px"></a>
+                </div>
+                
+                <div class= "item">
+                    <a href = "https://www.amazon.in/Alchemist-Paulo-Coelho/dp/8172234988/ref=sr_1_19?keywords=books&qid=1568633453&s=gateway&sr=8-19"><img src ="data:image/webp;base64,UklGRg4OAABXRUJQVlA4IAIOAABQQgCdASqwAAoBPw18sFEnJD+upZYK4/ghieRt4DKzw+qaUmJnI921LfGz6Dvu8OXon/u+8E54/0c/6Hpk/Vu9ADzq/We/2Ti856OzvgBPk7QKAvVrjUvJnqIdL0lL7IQAAwTFGTEDb6Jc6Vs/fC3XOltAU2ZaV92CJn1+X4vn7zj1Ah3CmWQ/siwvhlONRus9UtX9EK3u35Wx2XJVCH4uf6TiP4YIhrDf/Sb//7+KK7mbzEhJmeSf8XAOmwMHZF1JDQKEap6eyrTxWYqal1AsQct4kB0det2JpJxA6bp5q52DO1B738fncRF1oYOwFWkNxgWZWBcR/ZaPdow9B7V92TAjVYDIByACuOiCBlvXIw9H7Lbz1jWwHwekVAJg7EWnKEXURdw8Z+tRGIVvWHZb8SSg1IuAXljfJGVfUM23CNvxxoUzGHzVW4pHdwUyevs+1xs5983sUurqAaLcTwAtQV3n3zceehnv+MKEt2DS7y1DXc503uQIXVGLhKxYY32FdxtREmAnnhGS2JGfrLYf/7WnHqje4zkRBAh68UKcTdXYxCQb9ScK6lf4r9R/NNqMRvn49uFD1UdsPiP8/7pjCf+3y5jyWgs3hv7CKcpGodjq9MKJJD30yVEho87exwrdAFBr+gujswYEpZJDlSsKQOKRK3GDm9dUUsH9rGIjub/DVf9ZANADA6WYGRRelHtkdkd5mHO1YGfgAAD87tPGGE2gNVq1bOCZr++3wF7RF+GRdc//4M5N2x36/c7t/HbU1txIQUyFbfDIHekOsm0lzMOLF0YsJFBVp6x9JOAzKNZng5z5DvtJEUZHr+aLI01pZ0uyVURXrOCb71FCY5Al6aqoCoQntFyqtwXq9zqAZsgm9hy+FosXOLS/UXlQiRRubKLW4c7lkDKGFjCvtIhe2mIa3xRKGJ9F4PvLqvvBeW0paXB/cYYAab57aoN8YoH8nzq9UNgYg1QTXpv7OyiBKo0j6IRBsUdt8we7KAXlEcpWkm04Q2eoUmRJO3rjYOb6/+x6zSmhR0yVV736TMmf/S5TeiqJup5GlWeMRAEpizahyR68VjAeVD4F/n5VWbCJtZJUHl6DUBYAwIXeyQxnOXHtSZMZj1WpNnFJvGir1gC6hgEAfFvhcdsX++FOR7pD9fI4nptjqZsFJ7snRyjrdQh6c/xu1EGKdGZ9Ke2BYNZJVGdJeTJ3R9AUXvHtXN1W3uYDo2gtavvlf+JvMxNnQb22v5wfBm0o7uXQPnlbq2gLF2w61D0C5HwDW41+CS6FD8K2kf5/27Zt8lGj8Ypshna+5dNAE1zmIqGMqaMfIJ2IXHWxFaEb4zMHSZR3UE2AydsE69aWrIjG98wNrKOGeOrzIcO+muIiQJjFkoMz1AS2iyaOueZIYiOnSO/DZxrd88vB0pB5dpMlsINHFBLzRtzsN6qzQqnhAiQOlELNMGhcBDLVt8eWsLEKdasOsh7RSzPY87czcXPZQC7aABe33yKfxbFFWDob+XE8J2nybd21faioTSDnB7Yl3kW06kTZV/TVP/zoVrdrmfy3fGavMSBxwxmZlMo9xENF+UDU81xNF1B011xDnUoy6cGIYTBs9YIl/o0+07yhYWBpsrDgZyYZMRuFZnVIG0Np4ivHgDeQwXJFzFObSIJY3ixGgEWzUvDxwj3Dcw034YswnozsOkqBdNjOLCa9p/UYkZHryRdnQDY+vXEIYn/9lOvmnuax59M0DhdkoHN3pC0P78gCsBtHgqsYmucR4eezW4tXt9em6cx6sqTV1fELo3NWuhi2VZzeAfgn6/3OEJJtHN35PRsvL8t1Oq+2Ol2eF+uE5xIG/PSiliRXG/HWSsQi4itVa7F9235wlJg/RHWuOAvljHWEaeDWoQu6TovHnEzcc0d+KLdxG26dvnYCTwdjrGKuV0gZUVPrN8HdYMoc78ryefPvmi9Qy6lzmmvkHt37V+GHKhEqreKlz5vM3QjkkYv+gE0CuCiMsxfg0I4RQTj+kuD/XzWY3xFe9LvpymROhHExq+fknbPSAVlSPrxks3FdNaJEvdojmIoebtVIGGBTab1nKScqeT39qX4Yskl8KtuXqWZQVPshui7P1CEzSE7nU+HtRrD8fY3SNYCgYv7ouvKPU9i3sBTJ0JWEs1FfpynGwNBZLZBgcf60sIYK7Me5r65r0+w8uvBlhJwWYnrZB2GW+nXRhPK42bWmkePFU3QqehAx+/lGC9e1SqljRfVdPE/bJtlCab7TDOA00b+FKDvwa2c075QgmxdPRw19/XS2A5f/CC53wBWksj3zkKsvU667iBmESPNaxlkCnOXGwxqdWTLoedxmZ4SPldKfrJUPDqhGVwjuonw+jnre6ww7k3tpJY7iwViYFf+nYzcq4x8YafhCSxrUehslLbuIg71vY4i5BkP4RS3zawvGCOnN4rgB8+GPElN9XwhXjyTJnDXrPJ2ZXlOsFEwgcTMiYebtpJ3huoGLGHLcqyi7lCJNZ3md9VLEyaANXF7ldouczihOgM3mv2DjXblF/tE9C1W5fwKwgwmS+MqTGEuiVXd++0fpQXQTi8ZNgrDs7A6c/DiOaC9/rKahOISJZQCYtUuTWvH5dvUfIjSrRYyFZHV1dEyFtugT7Z+GelvYdbnwkgy7fQ9CQeOcNT4boxhVba2vVYhvyaYXwi0+QJWN2frazZLbaFowtGq95vrnC4iwLoBaPKrfV5yOF4B6OBZbgoVAnUYk+v0t47L24pugQa7RGBEkh2aUwXIGKyjnkow6NB8u23+5qf6YGPSOor2O3ci5ku/GruD80sWnOAHRnmUHteEp6y+Yta4nUgZPTZZoJDkqV/Zg1QWn/billF9q0N9tq6tPj1GDACzLq7hgKH9jLnoM/R+XGqs/TFZ2FL+yueSoQOGBmLF+Z4R9Z4+3XSmR1OxERxGCxYqy12AtP/hIzSoYOi54xDZO6NWD3pMuS3/HQOK+Sm7s05wsXyFAXA9J6Zxxb2tRK64un7TLkwJbaPC90pDG4bnbncl2jnnVhdkl7KmlV9AzH4Oi5mPfiRUHmoL4H0Ilzw3wX1oi9BFyEsAnhEOpfcApGmlPT5SYGWD7EyeVRpzy8kQIHc+LTVUoBdyNtiS8VmZCjHq3MWY3qb2NEtNHPOH2vw7zZwQwlkDTwEDoyTwxjyPqoJtuSAOh+DAkEpCM9HwVPWyC7IrlTnbmibyVIqRvzM0E2RKFbBlricAsyMTVNvKWXqhYCBgzEcEd0iidpD3Yl80qR9hbgTkkS606oF4RGII6BgZ+dYI6wVz+XTIOslSVCTdHN2eod3IdySeCK4t8SwaTIF1L6Qcvul0QsXwdfYInCKfu+BiiO5oN+hb6EqdjG0tqTxf3fEZFtwHNuvMdBnGwOFa1Iz0rjvLWxkNfRbPC4JDkqM6rRzetxFO3SMGDB7ihF1/3XPAYMTH/X05iaIP8YsGHlZU/UdZVJFBwJkgQXJ5G6hj/ohFLArqB0yOedQD1gvubUvfit59bfE7BuEj44/UNuWxOBXZMJt47jQKpCJE0oWq0PK6tX6xvOoITgG42qVghlGtxoepUjzyN6UW7CE4wdKAqgHsf8eQz2XRa6qW6gFCOUN3TRfCU7byskQOIY3ZHrs/RNP+1yJFYl1+SwIvkoq0+SJ2aTEAx5F4DfcB/L322cJ8zvbug7CyFWuf8hGGUmnzBLNhiaAbeAZAYwnz3kR+YNP0GqX4wOyM2hUIQMZmhf9J9qeiT2m+8wuNbjCmt9Dy2jTmqCajuJX//bDZ4QPVP4c5GPZGub69MnqA+vjiOs+ufI7bjwi3cd8CfwoxOAJVCMk1IBExSrLqXzekjBd2hDUuTjNd5tmEmLqRZtzJnuRV36eEH3dg/9xiU3nx5iJV/tzVWW/ChoRsdD/stcFPJjxl71yp6sH7lh3OL9WMq8BP1FyAQiDbVU6UvtjkMABIseLSrzWenWCGeI0z9fwFyH2qZ8eoSrVjWQ9Akdx6cPVdT4vgOHuCcwymuFP96BLqTp7iWY39j20is3q8v9fm7f8avFqtgjV2XPqajOLAf0peE1pKvZKxSYf8AxgDXBFfUy1YaaYlDAFIiSDfGFqrwHH3PUb9r8zFBBLoy3YtwVt7tkGsa2M5ODNl4CZJWyxWnRvvrbNvCOjkW+wr+auJg2wXKX7Dsr6ya+kiUuPkjmqdFigFhKicsAiMhk+XDJjXZAaeq07DkFjh1lgBlVRMtEqBZAN2hJqGX6BK3Bm8Wdq/kVGh6q94lo4JqZV1hRuWvL2qoHTwf4iwRdMHyhXvBlbVbureP1e33/fOmcOYGMHr6q7LmO/AAi4wIvuQWMEJCpVUny1ThXUOTlgbGTe9zANSqpbv3CHHxB1L5zBwvFvveNLTzQkx6idEMsjuU1JaRzhHfiLo7lUHvtf7XW6kjG53nnqkb161XYFoY1AH8Yja6LU/WiGuK3nCHitukQsmt6xfZHAVK3bZEu1bVEcFWUFZqC5heW5zq6rsgnKUqaxpXbnFHpdACSKa1FwFx61agnHr67fX+BDWgWxYctfk54nInEU7PnYTfgu54Y9KSoyA9GX+ss74KFXV/fWwbt/GEzg+F2men0BvSLqhDdmVK0Ntk8Q846KwNVUqWzlfCdysWgO9PFRkXr1TTQTil3KFiv4iOQCpqoOB0vNo1w1dUhy3/w6O5YqXsGOntGU2QvIS7btwnFWLCBgPn30pZ3BRxlx+sOVe3Dxl2E9bemfBTMr98aREU4HvBFCGwj4VQFw99X0Hwdx160McfzcAA" hieght = "280px" width = "200px"></a>
+                </div>
+                
+                 <div class= "item">
+                    <a href = "https://www.amazon.in/Theory-Everything-Stephen-Hawking/dp/8179925919/ref=sr_1_8?keywords=books&qid=1568633453&s=gateway&sr=8-8"><img src ="https://images-na.ssl-images-amazon.com/images/I/51oHUvYzbsL._SX327_BO1,204,203,200_.jpg" hieght = "280px" width = "200px"></a>
+                </div>
+  
+                <div class="item">
+                   <a href = "https://www.amazon.in/Bhagavad-gita-As-Bhaktivedanta-Swami-Prabhup%C4%81da-ebook/dp/B004GHNEL0/ref=sr_1_8?keywords=bhagvad+gita&qid=1568632810&s=gateway&sr=8-8"><img src = "https://images-eu.ssl-images-amazon.com/images/I/51P%2B%2BpfOatL._SY346_.jpg" height="280px" width="200px"></a>
+                </div>
+                <div class = "item">
+                    <a href = "https://www.amazon.in/Harry-Potter-Philosophers-Stone-Rowling/dp/1408855658/ref=sr_1_1?crid=TSH2S3LOFR90&keywords=harry+potter+book&qid=1568632505&s=gateway&sprefix=harr%2Caps%2C436&sr=8-1"><img src = "https://images-na.ssl-images-amazon.com/images/I/51ifu1aebKL._SX332_BO1,204,203,200_.jpg" height="280px" width="200px"></a>
+                </div>    
+            </section>
+            
+             <section id ="section2">
+<!--                <a href = "#section1">\</a>    -->
+            </section>
+        </div>
+        
+        
+        
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="1500" height="386" id="gmap_canvas" src="https://maps.google.com/maps?q=MANIT%2C%20bhopal&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/20-off-discount-for-elegant-themes-divi-sale-coupon-code-2019/">embedgooglemap.net</a></div>
+        </div>
+            
+            
+    </body>
+</html>
